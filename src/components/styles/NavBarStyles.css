@@ -1,0 +1,68 @@
+:root {
+  --dark-bg: #262626;
+  --gray-1: #bcb4b4;
+  --deep-dark: #1e1e1e;
+  --gray-2: #363636;
+  --white: white;
+  --black: black;
+}
+
+.navIcon p{
+    color: var(--white);
+    font-size: 2em;
+    padding: 2em;
+}
+
+.navIcon {
+    width: 100%;
+
+    display: none;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 30em;
+}
+
+.nav-link {
+  color: var(--white);
+  font-size: 2em;
+  text-align: center;
+}
+
+.isActive {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+  .navlist {
+    padding: 2em 20em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navlist {
+    padding: 2em 12em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .navlist {
+    height: 80vh;
+    flex-direction: column;
+    z-index: 1000;
+    justify-content: space-around;
+    align-content: center;
+    padding: auto;
+  }
+  .navIcon {
+    display: flex;
+    align-content: flex-end;
+    justify-content: end;
+  }
+  .hideNavBar {
+      display: none;
+  }
+
+}
