@@ -8,27 +8,33 @@
 }
 
 .navIcon p{
-    color: var(--white);
-    font-size: 2em;
-    padding: 2em;
+    color: var(--gray-1);
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-right: 2em;
+
 }
 
 .navIcon {
     width: 100%;
-
     display: none;
 }
 
 .navlist {
   display: flex;
   justify-content: space-around;
-  padding: 2em 30em;
+  padding: 2em 20em;
 }
 
 .nav-link {
   color: var(--white);
   font-size: 2em;
   text-align: center;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: palevioletred;
 }
 
 .isActive {

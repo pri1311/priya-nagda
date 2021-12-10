@@ -1,0 +1,98 @@
+.homeWrapper {
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+.homeImage {
+  height: 60vh;
+  width: auto;
+  align-self: center;
+  margin: auto;
+  margin-top: 0;
+  opacity: 0.7;
+  border: 1px solid white;
+}
+
+.homeWrapper h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin: auto;
+  transform: translateY(0.5em);
+  margin-bottom: 0;
+}
+
+.homeWrapper p {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin: 0 14em;
+  /* transform: translateY(-5em); */
+  text-align: center;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+
+.homeWrapper span.name {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transform: translateY(0.5em);
+  z-index: 100;
+}
+
+.homeWrapper span.bits {
+  color: palevioletred;
+}
+
+.resumeButton {
+  background-color: var(--white);
+  color: var(--deep-dark);
+  font-weight: bolder;
+  padding: 0.75em;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+  /* transform: translateY(-5em); */
+}
+
+.resumeButton:hover {
+  color: var(--white);
+  background-color: var(--deep-dark);
+}
+
+@media screen and (max-width: 960px) {
+  .homeWrapper p {
+    margin: 0 8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .homeImage {
+        height: 40vh;
+    }
+    .homeWrapper p {
+        margin: 0 3em;
+        margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .homeImage {
+        display: none;
+    }
+
+    .homeWrapper h1, .homeWrapper span.name {
+        transform: translateY(1em);
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+
+    .homeWrapper h1{
+        margin-bottom: 0;
+    }
+
+}
