@@ -2,11 +2,16 @@ import React from 'react'
 import Skills from '../others/Skills'
 import '../styles/About.css'
 import Experience from '../utils/Experience'
+import aboutme from '../../assets/images/aboutme2.png'
 
 export default function About() {
     return (
         <div className='aboutWrapper'>
             <div className='topWrapper'>
+                <div className='imageWrapper'>
+                    <img className='aboutImage' src={aboutme}></img>
+                </div>
+            
                 <div className='expWrapper'>
                     <div className='experience'>
                         <p className='aboutMe'>I am a third-year Computer Engineering student at Veermata Jijabai Technological Institute, Mumbai. <br /><br />
@@ -19,11 +24,7 @@ export default function About() {
                         <h1 className='heading'>About Me</h1>
                     </div>
                 </div>
-                <div className='imageWrapper'>
-                    {/* <img className='aboutImage' src='/assets/images/undraw_voice_interface_eckp.svg'></img> */}
-                    <img className='aboutImage' src='/assets/images/aboutme.png'></img>
                 </div>
-            </div>
             <div className='bottomWrapper'>
                 <div className='skillsWrapper'>
                     <h1 className='heading'>Skills</h1>

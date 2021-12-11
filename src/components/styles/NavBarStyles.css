@@ -63,6 +63,7 @@
     justify-content: space-around;
     align-content: center;
     padding: auto;
+    width: 100%;
   }
   .navIcon {
     display: flex;
