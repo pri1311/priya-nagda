@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/priya-nagda/static/css/main.fe1e7ced.chunk.css",
-    "main.js": "/priya-nagda/static/js/main.8033a710.chunk.js",
-    "main.js.map": "/priya-nagda/static/js/main.8033a710.chunk.js.map",
+    "main.js": "/priya-nagda/static/js/main.fe080d5f.chunk.js",
+    "main.js.map": "/priya-nagda/static/js/main.fe080d5f.chunk.js.map",
     "runtime-main.js": "/priya-nagda/static/js/runtime-main.dfe0251b.js",
     "runtime-main.js.map": "/priya-nagda/static/js/runtime-main.dfe0251b.js.map",
     "static/js/2.95c2b050.chunk.js": "/priya-nagda/static/js/2.95c2b050.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.dfe0251b.js",
     "static/js/2.95c2b050.chunk.js",
     "static/css/main.fe1e7ced.chunk.css",
-    "static/js/main.8033a710.chunk.js"
+    "static/js/main.fe080d5f.chunk.js"
   ]
 }
