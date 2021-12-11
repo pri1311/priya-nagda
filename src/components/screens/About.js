@@ -3,6 +3,8 @@ import Skills from '../utils/Skills'
 import '../styles/About.css'
 import Experience from '../utils/Experience'
 import aboutme from '../../assets/images/aboutme2.png'
+import {programmingLanguages, databases, frameworks, others, tools} from '../imports'
+
 
 export default function About() {
     return (
@@ -28,12 +30,12 @@ export default function About() {
             <div className='bottomWrapper'>
                 <div className='skillsWrapper'>
                     <h1 className='heading'>Skills</h1>
-                    <Skills title="Programming languages" base="programminglanguages" images={['c.svg', 'c++.svg', 'dart.svg', 'javascript.svg', 'kotlin.svg', 'php.png', 'python.svg']}></Skills>
-                    <Skills title="Databases" base="databases" images={['mongodb.svg', 'mysql.svg']}></Skills>
-                    <Skills title="Frameworks" base="frameworks" images={['android.svg', 'boostrap.svg', 'flask.svg', 'nodejs.svg', 'react.svg']}></Skills>
-                    <Skills title="Others" base="others" images={['css.svg', 'firebase.svg', 'git.svg', 'html.svg', 'json.svg']}></Skills>
-                    <Skills title="Tools/Platforms" base="tools" images={['android-studio.svg', 'github.svg', 'intellij.svg', 'vscode.svg']}></Skills>
-                </div>
+                    <Skills title ="Programming Languages" images = {programmingLanguages}></Skills>
+                    <Skills title ="Frameworks" images = {frameworks}></Skills>
+                    <Skills title ="Databases" images = {databases}></Skills>
+                    <Skills title ="Others" images = {others}></Skills>
+                    <Skills title ="Tools and Platforms" images = {tools}></Skills>
+                    </div>
                 <div className='expWrapper'>
                     <h1 className='heading'>Experience</h1>
                     <Experience company="iMumz- Pruoo Healthcare Technologies Pvt. Ltd." years="May - June 2021" summary={["Redesigning the UI of profile screen, Feed, etc. in Flutter.", " Implemented Stories feature for the app, in a team.", "Bug fixes and code redesign to help make app more responsive."]}></Experience>
