@@ -8,7 +8,7 @@ export default function About() {
         <div className='aboutWrapper'>
             <div className='topWrapper'>
             <div className='imageWrapper'>
-                    <img className='aboutImage' src='/assets/images/aboutme2.png'></img>
+                    <img className='aboutImage' src='%PUBLIC_URL%/assets/images/aboutme2.png'></img>
                 </div>
                 <div className='expWrapper'>
                     <div className='experience'>
