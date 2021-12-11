@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/priya-nagda/static/css/main.fe1e7ced.chunk.css",
+    "main.js": "/priya-nagda/static/js/main.4a63e128.chunk.js",
+    "main.js.map": "/priya-nagda/static/js/main.4a63e128.chunk.js.map",
+    "runtime-main.js": "/priya-nagda/static/js/runtime-main.dfe0251b.js",
+    "runtime-main.js.map": "/priya-nagda/static/js/runtime-main.dfe0251b.js.map",
+    "static/js/2.95c2b050.chunk.js": "/priya-nagda/static/js/2.95c2b050.chunk.js",
+    "static/js/2.95c2b050.chunk.js.map": "/priya-nagda/static/js/2.95c2b050.chunk.js.map",
+    "index.html": "/priya-nagda/index.html",
+    "static/css/main.fe1e7ced.chunk.css.map": "/priya-nagda/static/css/main.fe1e7ced.chunk.css.map",
+    "static/js/2.95c2b050.chunk.js.LICENSE.txt": "/priya-nagda/static/js/2.95c2b050.chunk.js.LICENSE.txt",
+    "static/media/home.2bd422f0.png": "/priya-nagda/static/media/home.2bd422f0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfe0251b.js",
+    "static/js/2.95c2b050.chunk.js",
+    "static/css/main.fe1e7ced.chunk.css",
+    "static/js/main.4a63e128.chunk.js"
+  ]
+}
