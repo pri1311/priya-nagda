@@ -1,0 +1,80 @@
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topWrapper, .bottomWrapper{
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.aboutImage {
+    height: 50vh;
+}
+
+.aboutWrapper .heading {
+    color: #d87093;
+}
+
+.expWrapper, .skillsWrapper, .imageWrapper {
+    /* margin-top: 6em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 45%;
+}
+
+.aboutMe {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:960px) {
+    .aboutMe {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .topWrapper{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .bottomWrapper, .topWrapper {
+        flex-direction: column;
+    }
+
+    .expWrapper, .skillsWrapper {
+        width: 100%;
+        padding: 0 5em;
+        margin-top: 5em;
+        /* height: 100vh; */
+    }
+
+    .imageWrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .aboutWrapper{
+        max-height: 300vh;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .bottomWrapper, .topWrapper {
+        min-height: 80vh;
+    }
+
+    .aboutWrapper {
+        height: 180vh;
+    }
+}

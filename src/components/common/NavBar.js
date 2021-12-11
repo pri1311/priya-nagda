@@ -25,7 +25,7 @@ export default function NavBar() {
                 >
                     Home
                 </NavLink>
-                <NavLink to="/"
+                <NavLink to="/about"
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
@@ -46,13 +46,8 @@ export default function NavBar() {
                 >
                     Contact
                 </NavLink>
-                <NavLink to="/"
-                    className={isActive =>
-                        "nav-link" + (!isActive ? " unselected" : "")
-                    }
-                >
-                    Resume
-                </NavLink>
+                <a href="https://drive.google.com/file/d/194xmm4Dn-DlsJiWeeheiqCK3rSwpi0oq/view?usp=sharing" className="nav-link" target='_blank'>Resume</a>
+
             </div>
         </React.Fragment>
     )

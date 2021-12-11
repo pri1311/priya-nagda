@@ -9,9 +9,6 @@ export default function Home() {
             <span className='name'>Priya Nagda</span>
             <img className='homeImage' src={home}></img>
             <p>I am a third-year Computer Engineering student at <span className='bits'>VJTI, Mumbai</span>. I have professional experience in <span className='bits'>App Development</span> using Flutter. Currently, I am exploring the world of <span className='bits'>Machine Learning</span> and brushing up on my <span className='bits'>Web Developement</span> skills.</p>
-            {/* <button className='resumeButton'> */}
-                {/* Download Resume */}
-            {/* </button> */}
         </div>
     )
 }
