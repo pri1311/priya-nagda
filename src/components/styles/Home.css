@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
     .homeImage {
         display: none;
     }

@@ -12,7 +12,7 @@
   --dark-bg: #262626;
   --gray-1: #bcb4b4;
   --deep-dark: #1e1e1e;
-  --gray-2: #363636;
+  --gray-2: #a19f9f;
   --white: white;
   --black: black;
 }
@@ -22,10 +22,7 @@ html {
   background-color: var(--dark-bg);
   color: var(--white);
 }
-ul,
-li {
-  list-style: none;
-}
+
 a {
   text-decoration: none;
 }

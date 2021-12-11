@@ -55,6 +55,8 @@
 
 @media screen and (max-width: 560px) {
   .navlist {
+    background-color: var(--dark-bg);
+    position: absolute;
     height: 80vh;
     flex-direction: column;
     z-index: 1000;
