@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/priya-nagda/static/css/main.fe1e7ced.chunk.css",
-    "main.js": "/priya-nagda/static/js/main.fe080d5f.chunk.js",
-    "main.js.map": "/priya-nagda/static/js/main.fe080d5f.chunk.js.map",
+    "main.js": "/priya-nagda/static/js/main.11feb130.chunk.js",
+    "main.js.map": "/priya-nagda/static/js/main.11feb130.chunk.js.map",
     "runtime-main.js": "/priya-nagda/static/js/runtime-main.dfe0251b.js",
     "runtime-main.js.map": "/priya-nagda/static/js/runtime-main.dfe0251b.js.map",
     "static/js/2.95c2b050.chunk.js": "/priya-nagda/static/js/2.95c2b050.chunk.js",
@@ -10,12 +10,37 @@
     "index.html": "/priya-nagda/index.html",
     "static/css/main.fe1e7ced.chunk.css.map": "/priya-nagda/static/css/main.fe1e7ced.chunk.css.map",
     "static/js/2.95c2b050.chunk.js.LICENSE.txt": "/priya-nagda/static/js/2.95c2b050.chunk.js.LICENSE.txt",
-    "static/media/home.2bd422f0.png": "/priya-nagda/static/media/home.2bd422f0.png"
+    "static/media/aboutme2.1493e8a8.png": "/priya-nagda/static/media/aboutme2.1493e8a8.png",
+    "static/media/android-studio.a57d2436.svg": "/priya-nagda/static/media/android-studio.a57d2436.svg",
+    "static/media/android.602921a6.svg": "/priya-nagda/static/media/android.602921a6.svg",
+    "static/media/bootstrap.53cd3aa8.svg": "/priya-nagda/static/media/bootstrap.53cd3aa8.svg",
+    "static/media/c++.0bd43dff.svg": "/priya-nagda/static/media/c++.0bd43dff.svg",
+    "static/media/c.ac27de84.svg": "/priya-nagda/static/media/c.ac27de84.svg",
+    "static/media/css.bba0846c.svg": "/priya-nagda/static/media/css.bba0846c.svg",
+    "static/media/dart.18894183.svg": "/priya-nagda/static/media/dart.18894183.svg",
+    "static/media/firebase.ecddc65b.svg": "/priya-nagda/static/media/firebase.ecddc65b.svg",
+    "static/media/flask.011dbe60.svg": "/priya-nagda/static/media/flask.011dbe60.svg",
+    "static/media/git.fff69573.svg": "/priya-nagda/static/media/git.fff69573.svg",
+    "static/media/github.074f0826.svg": "/priya-nagda/static/media/github.074f0826.svg",
+    "static/media/home.2bd422f0.png": "/priya-nagda/static/media/home.2bd422f0.png",
+    "static/media/html.8af6948d.svg": "/priya-nagda/static/media/html.8af6948d.svg",
+    "static/media/intellij.799b2b15.svg": "/priya-nagda/static/media/intellij.799b2b15.svg",
+    "static/media/javascript.cb6c28ae.svg": "/priya-nagda/static/media/javascript.cb6c28ae.svg",
+    "static/media/jquery.087fc9ba.svg": "/priya-nagda/static/media/jquery.087fc9ba.svg",
+    "static/media/json.0896702c.svg": "/priya-nagda/static/media/json.0896702c.svg",
+    "static/media/kotlin.715045ba.svg": "/priya-nagda/static/media/kotlin.715045ba.svg",
+    "static/media/mongodb.6cae7760.svg": "/priya-nagda/static/media/mongodb.6cae7760.svg",
+    "static/media/mysql.644af3df.svg": "/priya-nagda/static/media/mysql.644af3df.svg",
+    "static/media/nodejs.f163cddf.svg": "/priya-nagda/static/media/nodejs.f163cddf.svg",
+    "static/media/php.1e3b01c3.png": "/priya-nagda/static/media/php.1e3b01c3.png",
+    "static/media/python.14f5a10c.svg": "/priya-nagda/static/media/python.14f5a10c.svg",
+    "static/media/react.c60e0724.svg": "/priya-nagda/static/media/react.c60e0724.svg",
+    "static/media/vscode.01edeabe.svg": "/priya-nagda/static/media/vscode.01edeabe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dfe0251b.js",
     "static/js/2.95c2b050.chunk.js",
     "static/css/main.fe1e7ced.chunk.css",
-    "static/js/main.fe080d5f.chunk.js"
+    "static/js/main.11feb130.chunk.js"
   ]
 }
