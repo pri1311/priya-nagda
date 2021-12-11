@@ -4,7 +4,7 @@ import '../styles/Skills.css'
 export default function Skills(props) {
     var logos = []
     for (var i in props.images) {
-        var url = "/assets/skills/" + props.base + "/" + props.images[i]
+        var url = "%PUBLIC_URL%/assets/skills/" + props.base + "/" + props.images[i]
         logos.push(<img key={i} src={url}></img>)
     }
     return (
