@@ -39,7 +39,7 @@ export default function NavBar() {
                 >
                     Projects
                 </NavLink>
-                <NavLink to="/"
+                <NavLink to="/contact"
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }

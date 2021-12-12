@@ -90,9 +90,8 @@
     height: 180vh;
   }
   .expWrapper,
-  .skillsWrapper,
-  .imageWrapper {
-    max-width: 45%;
+  .skillsWrapper {
+    width: 45%;
   }
 
   .aboutImage {

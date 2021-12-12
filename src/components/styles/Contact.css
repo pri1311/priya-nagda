@@ -1,0 +1,41 @@
+.contactWrapper {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactIconWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactIconWrapper a{
+    color: var(--white);
+    text-align: center;
+    margin: 1em;
+}
+
+.contactIcons {
+    height: 10vh;
+    width: auto;
+    font-size: 5vh;
+    cursor: pointer;
+}
+
+.contactIcons:hover {
+    color: palevioletred;
+}
+
+@media screen and (max-width: 540px) {
+    .contactHeading {
+        margin: 0 2em;
+        text-align: center;
+    }
+}

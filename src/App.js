@@ -3,6 +3,7 @@ import NavBar from './components/common/NavBar';
 import Home from './components/screens/Home';
 import About from './components/screens/About';
 import './styles/GlobalStyles.css'
+import Contact from './components/screens/Contact';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

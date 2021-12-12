@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-height:1400px) and (min-height: 700px){
   .skills img {
     max-height: calc(min(50px, 4vh));
   }

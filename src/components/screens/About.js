@@ -28,6 +28,12 @@ export default function About() {
                 </div>
                 </div>
             <div className='bottomWrapper'>
+
+            <div className='expWrapper'>
+                    <h1 className='heading'>Experience</h1>
+                    <Experience company="iMumz- Pruoo Healthcare Technologies Pvt. Ltd." years="May - June 2021" summary={["Redesigning the UI of profile screen, Feed, etc. in Flutter.", " Implemented Stories feature for the app, in a team.", "Bug fixes and code redesign to help make app more responsive."]}></Experience>
+                    <Experience company="Your Super Idea" years="May 2021" summary={["Integrated firebase authentication.", "Built UI for app which uses location to find nearby vendors to deliver vegetables/fruits.", "Integrated google maps to display markers on map.", "Brainstorming Database model required for the app, considering both admin app and customer app usage."]}></Experience>
+                </div>
                 <div className='skillsWrapper'>
                     <h1 className='heading'>Skills</h1>
                     <Skills title ="Programming Languages" images = {programmingLanguages}></Skills>
@@ -36,11 +42,7 @@ export default function About() {
                     <Skills title ="Others" images = {others}></Skills>
                     <Skills title ="Tools and Platforms" images = {tools}></Skills>
                     </div>
-                <div className='expWrapper'>
-                    <h1 className='heading'>Experience</h1>
-                    <Experience company="iMumz- Pruoo Healthcare Technologies Pvt. Ltd." years="May - June 2021" summary={["Redesigning the UI of profile screen, Feed, etc. in Flutter.", " Implemented Stories feature for the app, in a team.", "Bug fixes and code redesign to help make app more responsive."]}></Experience>
-                    <Experience company="Your Super Idea" years="May 2021" summary={["Integrated firebase authentication.", "Built UI for app which uses location to find nearby vendors to deliver vegetables/fruits.", "Integrated google maps to display markers on map.", "Brainstorming Database model required for the app, considering both admin app and customer app usage."]}></Experience>
-                </div>
+
             </div>
         </div>
     )
