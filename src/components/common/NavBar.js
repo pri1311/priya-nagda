@@ -11,6 +11,7 @@ export default function NavBar() {
         else navIconText.innerText = 'X';
         navList.classList.toggle('hideNavBar');
     }
+
     return (
         <React.Fragment>
             <div className="navIcon" id="navIcon" onClick={closeNavBar}>
@@ -21,7 +22,7 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
-
+                    onClick={closeNavBar}
                 >
                     Home
                 </NavLink>
@@ -29,13 +30,17 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
+                    onClick={closeNavBar}
+
                 >
                     About
                 </NavLink>
-                <NavLink to="/"
+                <NavLink to="/projects"
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
+                    onClick={closeNavBar}
+
                 >
                     Projects
                 </NavLink>
@@ -43,6 +48,8 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
+                    onClick={closeNavBar}
+
                 >
                     Contact
                 </NavLink>

@@ -7,7 +7,7 @@ import React from 'react'
 export default function Contact() {
     return (
         <div className='contactWrapper'>
-            <h1 className='contactHeading'>Hello there! Feel free to drop me a text!</h1>
+            <h1 className='contactHeading'>Hello there. Feel free to drop me a text!</h1>
             <div className='contactIconWrapper'>
                 <a href='https://www.linkedin.com/in/priya-nagda-65a135197/'><FontAwesomeIcon className='contactIcons' icon={faLinkedin} /><p className='contactTags'>LinkedIn</p></a>
                 <a href='https://github.com/pri1311'><FontAwesomeIcon className='contactIcons' icon={faGithub} /><p className='contactTags'>GitHub</p></a>

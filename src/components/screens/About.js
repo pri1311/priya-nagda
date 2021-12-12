@@ -3,7 +3,7 @@ import Skills from '../utils/Skills'
 import '../styles/About.css'
 import Experience from '../utils/Experience'
 import aboutme from '../../assets/images/aboutme2.png'
-import {programmingLanguages, databases, frameworks, others, tools} from '../imports'
+import {programmingLanguages, databases, frameworks, others, tools} from '../skillsimports'
 
 
 export default function About() {
@@ -31,7 +31,7 @@ export default function About() {
 
             <div className='expWrapper'>
                     <h1 className='heading'>Experience</h1>
-                    <Experience company="iMumz- Pruoo Healthcare Technologies Pvt. Ltd." years="May - June 2021" summary={["Redesigning the UI of profile screen, Feed, etc. in Flutter.", " Implemented Stories feature for the app, in a team.", "Bug fixes and code redesign to help make app more responsive."]}></Experience>
+                    <Experience company="iMumz- Pruoo Healthcare Technologies Pvt. Ltd." years="May - July 2021" summary={["Redesigning the UI of profile screen, Feed, etc. in Flutter.", " Implemented Stories feature for the app, in a team.", "Bug fixes and code redesign to help make app more responsive."]}></Experience>
                     <Experience company="Your Super Idea" years="May 2021" summary={["Integrated firebase authentication.", "Built UI for app which uses location to find nearby vendors to deliver vegetables/fruits.", "Integrated google maps to display markers on map.", "Brainstorming Database model required for the app, considering both admin app and customer app usage."]}></Experience>
                 </div>
                 <div className='skillsWrapper'>

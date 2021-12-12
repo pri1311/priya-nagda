@@ -14,6 +14,7 @@ import MySQL from '../assets/skills/databases/mysql.svg'
 import Android from '../assets/skills/frameworks/android.svg'
 import Bootstrap from '../assets/skills/frameworks/bootstrap.svg'
 import Flask from '../assets/skills/frameworks/flask.svg'
+import Flutter from '../assets/skills/frameworks/flutter.svg'
 import JQuery from '../assets/skills/frameworks/jquery.svg'
 import NodeJs from '../assets/skills/frameworks/nodejs.svg'
 import ReactJs from '../assets/skills/frameworks/react.svg'
@@ -33,6 +34,6 @@ import VSCode from '../assets/skills/tools/vscode.svg'
 
 export const programmingLanguages = [C, Cpp, Dart, JavaScript, Kotlin, PHP, Python];
 export const databases = [MongoDB, MySQL];
-export const frameworks = [Android, Bootstrap, Flask, JQuery, NodeJs, ReactJs];
+export const frameworks = [Android, Bootstrap, Flask, Flutter, JQuery, NodeJs, ReactJs];
 export const others = [CSS, Firebase, Git, HTML, JSON];
 export const tools = [AndoridStudio, GitHub, IntelliJ, VSCode];
