@@ -13,7 +13,7 @@ export default function NavBar() {
     }
 
     function closeNavBarMobile() {
-        if (screen.width <= 560) {
+        if (window.width <= 560) {
             closeNavBar();
         }
     }
