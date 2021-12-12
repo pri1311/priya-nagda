@@ -12,6 +12,12 @@ export default function NavBar() {
         navList.classList.toggle('hideNavBar');
     }
 
+    function closeNavBarMobile() {
+        if (screen.width <= 560) {
+            closeNavBar();
+        }
+    }
+
     return (
         <React.Fragment>
             <div className="navIcon" id="navIcon" onClick={closeNavBar}>
@@ -22,7 +28,7 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
-                    onClick={closeNavBar}
+                    onClick={closeNavBarMobile}
                 >
                     Home
                 </NavLink>
@@ -30,7 +36,7 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
-                    onClick={closeNavBar}
+                    onClick={closeNavBarMobile}
 
                 >
                     About
@@ -39,7 +45,7 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
-                    onClick={closeNavBar}
+                    onClick={closeNavBarMobile}
 
                 >
                     Projects
@@ -48,7 +54,7 @@ export default function NavBar() {
                     className={isActive =>
                         "nav-link" + (!isActive ? " unselected" : "")
                     }
-                    onClick={closeNavBar}
+                    onClick={closeNavBarMobile}
 
                 >
                     Contact
