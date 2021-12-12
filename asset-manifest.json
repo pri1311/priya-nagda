@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f33f7a8.chunk.css",
-    "main.js": "/static/js/main.bbc1ce19.chunk.js",
-    "main.js.map": "/static/js/main.bbc1ce19.chunk.js.map",
+    "main.css": "/static/css/main.2698f5e7.chunk.css",
+    "main.js": "/static/js/main.2277a30a.chunk.js",
+    "main.js.map": "/static/js/main.2277a30a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.f6b0136f.chunk.js": "/static/js/2.f6b0136f.chunk.js",
     "static/js/2.f6b0136f.chunk.js.map": "/static/js/2.f6b0136f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8f33f7a8.chunk.css.map": "/static/css/main.8f33f7a8.chunk.css.map",
+    "static/css/main.2698f5e7.chunk.css.map": "/static/css/main.2698f5e7.chunk.css.map",
     "static/js/2.f6b0136f.chunk.js.LICENSE.txt": "/static/js/2.f6b0136f.chunk.js.LICENSE.txt",
     "static/media/aboutme2.1493e8a8.png": "/static/media/aboutme2.1493e8a8.png",
     "static/media/android-studio.a57d2436.svg": "/static/media/android-studio.a57d2436.svg",
@@ -28,6 +28,7 @@
     "static/media/git.fff69573.svg": "/static/media/git.fff69573.svg",
     "static/media/github.074f0826.svg": "/static/media/github.074f0826.svg",
     "static/media/home.2bd422f0.png": "/static/media/home.2bd422f0.png",
+    "static/media/home_mobile.256544b2.jpg": "/static/media/home_mobile.256544b2.jpg",
     "static/media/html.8af6948d.svg": "/static/media/html.8af6948d.svg",
     "static/media/intellij.799b2b15.svg": "/static/media/intellij.799b2b15.svg",
     "static/media/javascript.cb6c28ae.svg": "/static/media/javascript.cb6c28ae.svg",
@@ -46,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.f6b0136f.chunk.js",
-    "static/css/main.8f33f7a8.chunk.css",
-    "static/js/main.bbc1ce19.chunk.js"
+    "static/css/main.2698f5e7.chunk.css",
+    "static/js/main.2277a30a.chunk.js"
   ]
 }
