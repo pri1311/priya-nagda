@@ -5,6 +5,7 @@ import About from './components/screens/About';
 import Contact from './components/screens/Contact';
 import Projects from './components/screens/Projects';
 import './styles/GlobalStyles.css'
+import Footer from './components/common/Footer';
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
           <Route path="/projects" element={<Projects/>}></Route>
+          <Route path ="*" element ={<Home/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }

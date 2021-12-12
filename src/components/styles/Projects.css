@@ -8,3 +8,13 @@
   justify-content: center;
   margin: auto;
 }
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectsPageTitle {
+  text-align: center;
+  margin-top: 2em;
+}

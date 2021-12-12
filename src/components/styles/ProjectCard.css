@@ -20,11 +20,17 @@
     flex-wrap: wrap;
 }
 
-.techIconWrapper {
+.techIconWrapper, .techStackWrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+.gitLink {
+    color: var(--white);
+    height: 2em;
+    padding-left: 0.5em;
 }
 
 .techstackIcon, .techIconWrapper img {
@@ -34,6 +40,7 @@
 
 .projectCardWrapper p{
     max-width: 58vh;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width:540px) {
