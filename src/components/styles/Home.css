@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
 }
 
 .homeImage {
@@ -82,7 +81,9 @@
 
 @media screen and (max-width: 440px) {
     .homeImage {
-        display: none;
+        /* display: none; */
+        transform: translateY(-5em);
+        margin-bottom: 0;
     }
 
     .homeWrapper h1, .homeWrapper span.name {
@@ -95,4 +96,19 @@
         margin-bottom: 0;
     }
 
+    .homeWrapper p{
+      margin-bottom: 2em;
+    }
+
+    .homeWrapper {
+      justify-content: flex-start;
+    }
+    
+}
+
+@media screen and (min-width: 440px) {
+  .homeWrapper{
+    height: 90vh;
+
+  }
 }
