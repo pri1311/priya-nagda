@@ -17,13 +17,7 @@ export default function About() {
                 <div className='expWrapper'>
                     <div className='experience'>
                     <h1 className='heading'>About Me</h1>
-                        <p className='aboutMe'>I am a third-year Computer Engineering student at Veermata Jijabai Technological Institute, Mumbai. <br /><br />
-
-                            I am currently specializing in the web development arena. For the past two years, I have been developing projects in Flutter, Flask, HTML, CSS, and JS. To get professional experience in the field, I took up an Internship at YourSuperIdea and Imumz as a Flutter developer intern in the Summer of 2021. No two days were the same for me; my tasks involved analyzing algorithms, altering code, fixing bugs, brainstorming ideas, or integrating new systems. <br /><br />
-
-                            Something that I love about programming is the opportunity to work with people from a wide range of disciplines. The software development lifecycle involves working with so many different people and departments. As a people person and someone who loves to build new relationships, it’s great to be able to come together with other professionals striving towards the same goal.<br /><br />
-
-                            If you want to talk about programming, coding, software engineering, or anything else, drop me a line. I am currently available for employment and am always eager to hear from LinkedIn users.</p>
+                        <p className='aboutMe'>I am a third-year Computer Engineering student at VJTI, Mumbai. <br /><br />I am currently specializing in the web development arena and exploring the world of Machine Learning. For the past two years, I have been developing projects in Flutter, Flask, Vanilla JS, NodeJs, and ReactJS. To get professional experience in the field, I took up an Internship at Imumz as a Flutter developer intern in the Summer of 2021. No two days were the same for me; my tasks involved analyzing algorithms, altering code, fixing bugs, brainstorming ideas, or integrating new systems. <br /><br />Something that I love about programming is the opportunity to work with people from a wide range of disciplines. The software development lifecycle involves working with so many different people and departments. As a people person and someone who loves to build new relationships, it’s great to be able to come together with other professionals striving towards the same goal.<br /><br />If you want to talk about programming, coding, software engineering, or anything else, drop me a line. I am currently available for employment and am always eager to hear from peer programmers.</p>
                     </div>
                 </div>
                 </div>
