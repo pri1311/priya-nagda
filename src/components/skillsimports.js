@@ -5,6 +5,8 @@ import JavaScript from '../assets/skills/programminglanguages/javascript.svg'
 import Kotlin from '../assets/skills/programminglanguages/kotlin.svg'
 import PHP from '../assets/skills/programminglanguages/php.png'
 import Python from '../assets/skills/programminglanguages/python.svg'
+import TypeScript from '../assets/skills/programminglanguages/typescript.svg'
+import Julia from '../assets/skills/programminglanguages/julia.png'
 
 
 import MongoDB from '../assets/skills/databases/mongodb.svg'
@@ -32,7 +34,16 @@ import GitHub from '../assets/skills/tools/github.svg'
 import IntelliJ from '../assets/skills/tools/intellij.svg'
 import VSCode from '../assets/skills/tools/vscode.svg'
 
-export const programmingLanguages = [C, Cpp, Dart, JavaScript, Kotlin, PHP, Python];
+import cupy from '../assets/skills/machinelearning/cupy.png'
+import flux from '../assets/skills/machinelearning/flux.png'
+import numpy from '../assets/skills/machinelearning/numpy.png'
+import pandas from '../assets/skills/machinelearning/pandas.png'
+import sklearn from '../assets/skills/machinelearning/sklearn.png'
+import pytorch from '../assets/skills/machinelearning/pytorch.png'
+
+export const programmingLanguages = [C, Cpp, Python, Julia, JavaScript, TypeScript, Kotlin, PHP, Dart];
+export const MachineLearning = [numpy, pandas, sklearn, pytorch, cupy, flux]
+export const FullStack = [Flask, Flutter, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL]
 export const databases = [MongoDB, MySQL];
 export const frameworks = [Android, Bootstrap, Flask, Flutter, JQuery, NodeJs, ReactJs];
 export const others = [CSS, Firebase, Git, HTML, JSON];

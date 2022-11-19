@@ -4,6 +4,23 @@
   justify-content: space-around;
 }
 
+.aboutWrapper span.name {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transform: translateY(0.5em);
+  z-index: 100;
+  color: #d87093;
+}
+
+.aboutWrapper a, a::after{
+  text-decoration: underline;
+}
+
+.aboutWrapper p.aboutMe {
+  font-size: 2em;
+}
+
 .topWrapper,
 .bottomWrapper {
   /* height: 80vh; */
@@ -14,7 +31,7 @@
 }
 
 .aboutImage {
-    margin-top: 3em;
+  margin-top: 3em;
   height: 60vh;
   width: auto;
 }
