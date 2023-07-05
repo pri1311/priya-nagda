@@ -7,8 +7,7 @@ Visit the website - [priyanagda.in](https://priyanagda.in)
 - ReactJs
 
 ## Screenshots
-![screencapture-priyanagda-in-2022-01-14-14_40_48](https://github.com/pri1311/priya-nagda/website-screenshot.png)
-
+![screencapture-priyanagda-in-2022-01-14-14_40_48](https://github.com/pri1311/priya-nagda/blob/master/website-screenshot.png)
 
 ## Available Scripts
 
