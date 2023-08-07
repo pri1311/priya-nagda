@@ -34,6 +34,7 @@
   margin-top: 3em;
   height: 60vh;
   width: auto;
+  border-radius: 50%;
 }
 
 .aboutWrapper .heading {
@@ -53,6 +54,12 @@
 
 .aboutMe {
   font-size: 1.5em;
+}
+
+.aboutMe > span {
+  background-color: rgb(52,57,65);
+  padding: 0.2em;
+  border-radius: 0.3em;
 }
 
 @media screen and (max-width: 960px) {
