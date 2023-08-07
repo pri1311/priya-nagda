@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "58439469001c92a23391",
-    "url": "/static/css/main.cd295030.chunk.css"
+    "revision": "059866e66e0d0a7163c1",
+    "url": "/static/css/main.dec06517.chunk.css"
   },
   {
-    "revision": "58439469001c92a23391",
-    "url": "/static/js/main.2983b798.chunk.js"
+    "revision": "059866e66e0d0a7163c1",
+    "url": "/static/js/main.bd12d17c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "5115b1e5b9edb6a920db",
-    "url": "/static/js/2.749941a6.chunk.js"
+    "revision": "d06ab232c89a97c9b23f",
+    "url": "/static/js/2.2d8c378b.chunk.js"
   },
   {
     "revision": "22ee40702ee60e32869a6e80d97cf37b",
@@ -42,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "96986fcae124e6ff6f2b24ad4f999242",
     "url": "/static/media/nodejs.96986fca.svg"
+  },
+  {
+    "revision": "8bb84bc75cc3987b545cda66570a5783",
+    "url": "/static/media/redux.8bb84bc7.svg"
   },
   {
     "revision": "682b59a561d6f9a9243b981e3395c95a",
@@ -104,8 +108,8 @@ self.__precacheManifest = [
     "url": "/static/media/fyp.aa79e31c.png"
   },
   {
-    "revision": "a696831cca681a30ff530b6d1fb657c0",
-    "url": "/static/media/aboutme2.a696831c.png"
+    "revision": "87e378c17982ed7be10bfbbed0bb8989",
+    "url": "/static/media/aboutme2.87e378c1.png"
   },
   {
     "revision": "6d25ae389f5f8ecf7f9dcb80076de116",
@@ -120,16 +124,16 @@ self.__precacheManifest = [
     "url": "/static/media/dart.9da33b05.svg"
   },
   {
-    "revision": "189aacfefda1c78e7825dad5528d5abe",
-    "url": "/static/media/typescript.189aacfe.svg"
-  },
-  {
-    "revision": "b4cebee8c22bf92d081f87e5272153bf",
-    "url": "/static/media/julia.b4cebee8.png"
+    "revision": "2bc1093d824833bdcf86f8cad530246a",
+    "url": "/static/media/java.2bc1093d.svg"
   },
   {
     "revision": "ab2bf628866bdff2d34d6d31e4ea0667",
     "url": "/static/media/android.ab2bf628.svg"
+  },
+  {
+    "revision": "449e8efbf3e642eecc4d8e0b1fe7cb1d",
+    "url": "/static/media/spring.449e8efb.svg"
   },
   {
     "revision": "d51cfa4a35e802b60c57f166cdf288fd",
@@ -176,19 +180,19 @@ self.__precacheManifest = [
     "url": "/static/media/sklearn.f0f50003.png"
   },
   {
-    "revision": "8bb84bc75cc3987b545cda66570a5783",
-    "url": "/static/media/redux.8bb84bc7.svg"
+    "revision": "29266fc28defdad9c6120568eb2a871f",
+    "url": "/static/media/LangChain.29266fc2.png"
   },
   {
-    "revision": "37915013100e8c4756e490b1cc4695fe",
-    "url": "/static/media/kotlin.37915013.svg"
+    "revision": "189aacfefda1c78e7825dad5528d5abe",
+    "url": "/static/media/typescript.189aacfe.svg"
   },
   {
-    "revision": "13e7fc2bedc43afcce04e66cf5d4127f",
-    "url": "/static/media/php.13e7fc2b.png"
+    "revision": "b4cebee8c22bf92d081f87e5272153bf",
+    "url": "/static/media/julia.b4cebee8.png"
   },
   {
-    "revision": "602491edbf38a75dea44aff11183c710",
+    "revision": "a4ad21b61f72c83a4d9672d4f48f9d41",
     "url": "/index.html"
   }
 ];
