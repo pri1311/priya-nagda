@@ -41,7 +41,7 @@ import pandas from '../assets/skills/machinelearning/pandas.png'
 import sklearn from '../assets/skills/machinelearning/sklearn.png'
 import pytorch from '../assets/skills/machinelearning/pytorch.png'
 
-export const programmingLanguages = [C, Cpp, Python, Julia, JavaScript, TypeScript, Kotlin, PHP, Dart];
+export const programmingLanguages = [C, Cpp, Python, Julia, JavaScript, TypeScript, Dart];
 export const MachineLearning = [numpy, pandas, sklearn, pytorch, cupy, flux]
 export const FullStack = [Flask, Flutter, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL]
 export const databases = [MongoDB, MySQL];

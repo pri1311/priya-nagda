@@ -30,11 +30,10 @@ export default function About() {
             <div className='bottomWrapper'>
                 <div className='expWrapper'>
                     <h1 className='heading'>Experience</h1>
-                    <Experience company="The D. E. Shaw Group" years="May - July 2022" title="SDE Intern"
+                    <Experience company="D. E. Shaw & Co." years="May - July 2022" title="SDE Intern"
                                 summary={[
-                                    "Migrated from InfluxDB to internal Time Series database.",
-                                    "Developed a Flask API with optimized queries to visualize time-series data on Grafana.",
-                                    "Further worked on generalizing the API to load and visualize any database given a config file.",
+                                    "Migrated from InfluxDB to internal Time Series database, developed and configured a Flask API for Grafana to visualize the data.",
+                                    "Further worked on generalizing the API to load and visualise any database give a config file.",
                                     "Added caching for time-series data using Redis and Java."]}>
                     </Experience>
                     <Experience company="MLH Fellowship" years="Jan - April 2022" 
