@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Projects.css'
-import {crunch, dyceanddyne, earthling, khetibadi, foco, chaptersqueue, mrc, fyp} from '../projectsimports';
+import {crunch, dyceanddyne, earthling, khetibadi, foco, chaptersqueue, mrc, fyp, bufferoverflow} from '../projectsimports';
 import flutter from '../../assets/skills/frameworks/flutter.svg'
 import firebase from '../../assets/skills/others/firebase.svg'
 import flask from '../../assets/skills/frameworks/flask.svg'
@@ -11,12 +11,16 @@ import python from '../../assets/skills/programminglanguages/python.svg'
 import ProjectCard from '../utils/ProjectCard';
 import redux from '../../assets/skills/frameworks/redux.svg'
 import pytorch from '../../assets/skills/machinelearning/pytorch.png'
+import java from '../../assets/skills/programminglanguages/java.svg'
+import springBoot from '../../assets/skills/frameworks/spring.svg'
+import postgresql from '../../assets/skills/databases/postgresql.svg'
 
 export default function Projects() {
     return (
         <div className='pageWrapper'>
             <h1 className='projectsPageTitle'>Some things I've built</h1>
                     <div className='projectsWrapper'>
+            <ProjectCard image = {bufferoverflow} projectTitle= "BufferOverflow" techstack ={[react, java, springBoot, redux, postgresql]}  github ="bufferoverflow" summary ="Minimalist StackOverflow Clone built using Springboot, PostgreSQL and ReactJS. Users can post questions, provide answers, upvote and downvote, and browse through the platform’s content effortlessly. The minimalist design focuses on the core Q&A functionality while maintaining a clean and intuitive user experience."></ProjectCard>
             <ProjectCard image = {chaptersqueue} projectTitle= "ChaptersQueue" techstack ={[react, firebase, redux]} deployed ="https://chapters-queue.vercel.app/register" github ="ChaptersQueue" summary ="Bring any YouTube video which has chapters and convert it into a course, track your progress right inside of our app."></ProjectCard>
             <ProjectCard image = {crunch} projectTitle ="Crunch - Group Chat App" techstack={[flask, javascript]} github ="crunch" summary="If you’re looking for a simple chat app to meet new people around the world, our chat is for you! Here, nothing is impossible — find new friends, share images, have fun and of course discuss your working projects. With this chat you can meet thousands of people. The Chat app concept is designed with simplicity in mind. Anyone willing to get acquainted and communicate can install it for free and use without limits."></ProjectCard>
             <ProjectCard image = {fyp} projectTitle= "Molecular Property Prediction" techstack ={[python, pytorch]} github ="" summary ="With this research project we implemented various techniques for enhancing toxicity prediction of molecules in scenarios where there exists scarcity of labeled data. We propose three different architectural modifications and conclude that each of them give better results than the baseline in any given test conditions. However GIN, shows the most promising results over training of 150 epochs."></ProjectCard>

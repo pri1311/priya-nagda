@@ -44,6 +44,26 @@ export default function About() {
                 <div className="expWrapper">
                     <h1 className="heading">Experience</h1>
                     <Experience
+                        company="Dolat Capital"
+                        years="October 2023 - Present"
+                        title="Software Developer - C++"
+                        summary={[
+                            "Developed Flask-based monitoring app for servers and applications, ensuring real-time tracking and timely issue resolution.",
+                            "Leveraged the Boost C++ library to introduce serialization and deserialiaztion to the application, bringing down application start time from 5 minutes to 10 seconds in case of failures/abrupt process termination.",
+                            "Collaborated in agile environments, contributing to feature additions and bug fixes, optimizing system performance for Trade Order Management System (built using C++, PSQL, RTI, and socket programming)",
+                        ]}
+                    ></Experience>
+                    <Experience
+                        company="AnalyticsVerse"
+                        years="August - October 2023"
+                        title="Full Stack Development Intern"
+                        summary={[
+                            "Usual day here involves bug fixes, writing Spring Batch Jobs to fetch data from multiple sources, and efficiently processing and storing the same in PostgreSQL database.",
+                            "Received the opportunity to experience Agile development and a fast-paced startup culture.",
+                            "Tech stack: Java, Spring Boot, Postgresql",
+                        ]}
+                    ></Experience>
+                    <Experience
                         company="D. E. Shaw & Co."
                         years="May - July 2022"
                         title="SDE Intern"
@@ -53,6 +73,8 @@ export default function About() {
                             "Added caching for time-series data using Redis and Java.",
                         ]}
                     ></Experience>
+                </div>
+                <div style={{marginTop:0}} className="expWrapper">
                     <Experience
                         company="MLH Fellowship"
                         years="Jan - April 2022"
@@ -75,6 +97,8 @@ export default function About() {
                         ]}
                     ></Experience>
                 </div>
+            </div>
+            <div className="bottomWrapper">
                 <div className="skillsWrapper">
                     <h1 className="heading">Skills</h1>
                     <Skills

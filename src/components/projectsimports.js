@@ -6,6 +6,7 @@ import foco from '../assets/projects/foco.png'
 import chaptersqueue from '../assets/projects/chaptersqueue.png'
 import mrc from '../assets/projects/mrc.png'
 import fyp from '../assets/projects/fyp.png'
+import bufferoverflow from '../assets/projects/bufferoverflow.png'
 
 export {
     crunch,
@@ -15,5 +16,6 @@ export {
     foco,
     chaptersqueue,
     mrc,
-    fyp
+    fyp,
+    bufferoverflow
 }

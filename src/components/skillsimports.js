@@ -10,6 +10,7 @@ import Java from '../assets/skills/programminglanguages/java.svg'
 
 import MongoDB from '../assets/skills/databases/mongodb.svg'
 import MySQL from '../assets/skills/databases/mysql.svg'
+import PostgreSQL from '../assets/skills/databases/postgresql.svg'
 
 
 import Android from '../assets/skills/frameworks/android.svg'
@@ -45,7 +46,7 @@ import langchain from '../assets/skills/machinelearning/LangChain.png'
 
 export const programmingLanguages = [C, Cpp, Python, Java, JavaScript, Dart];
 export const MachineLearning = [numpy, pandas, sklearn, pytorch, cupy, flux, langchain]
-export const FullStack = [Flask, Flutter, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL, Redux, Springboot]
+export const FullStack = [Flask, Flutter, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL, Redux, Springboot, PostgreSQL]
 export const databases = [MongoDB, MySQL];
 export const frameworks = [Android, Bootstrap, Flask, Flutter, JQuery, NodeJs, ReactJs];
 export const others = [CSS, Firebase, Git, HTML, JSON];

@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 440px) {
   .aboutWrapper {
-    max-height: 300vh;
+    max-height: 420vh;
   }
 }
 
@@ -111,7 +111,7 @@
   }
 
   .aboutWrapper {
-    height: 180vh;
+    height: 250vh;
   }
   .expWrapper,
   .skillsWrapper {
