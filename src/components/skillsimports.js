@@ -44,9 +44,9 @@ import sklearn from '../assets/skills/machinelearning/sklearn.png'
 import pytorch from '../assets/skills/machinelearning/pytorch.png'
 import langchain from '../assets/skills/machinelearning/LangChain.png'
 
-export const programmingLanguages = [C, Cpp, Python, Java, JavaScript, Dart];
-export const MachineLearning = [numpy, pandas, sklearn, pytorch, cupy, flux, langchain]
-export const FullStack = [Flask, Flutter, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL, Redux, Springboot, PostgreSQL]
+export const programmingLanguages = [Cpp, Python, Java, JavaScript];
+export const MachineLearning = [numpy, pandas, sklearn, pytorch, cupy]
+export const FullStack = [Flask, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL, Redux, Springboot, PostgreSQL, Flutter]
 export const databases = [MongoDB, MySQL];
 export const frameworks = [Android, Bootstrap, Flask, Flutter, JQuery, NodeJs, ReactJs];
 export const others = [CSS, Firebase, Git, HTML, JSON];

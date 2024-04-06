@@ -11,7 +11,7 @@ export default function Contact() {
             <div className='contactIconWrapper'>
                 <a href='https://www.linkedin.com/in/priya-nagda-65a135197/'><FontAwesomeIcon className='contactIcons' icon={faLinkedin} /><p className='contactTags'>LinkedIn</p></a>
                 <a href='https://github.com/pri1311'><FontAwesomeIcon className='contactIcons' icon={faGithub} /><p className='contactTags'>GitHub</p></a>
-                <a href='https://twitter.com/priyanagda1311'><FontAwesomeIcon className='contactIcons' icon={faTwitter} /><p className='contactTags'>Twitter</p></a>
+                {/* <a href='https://twitter.com/priyanagda1311'><FontAwesomeIcon className='contactIcons' icon={faTwitter} /><p className='contactTags'>Twitter</p></a> */}
                 <a href='mailto:nagdapriya13@gmail.com'><FontAwesomeIcon className='contactIcons' icon={faEnvelopeOpenText} /><p className='contactTags'>Gmail</p></a>
             </div></div>
     )
