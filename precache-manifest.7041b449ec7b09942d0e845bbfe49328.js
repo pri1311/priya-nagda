@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d4c801f4c774858b3461",
+    "revision": "24a8708acca2327ce844",
     "url": "/static/css/main.40d6479b.chunk.css"
   },
   {
-    "revision": "d4c801f4c774858b3461",
-    "url": "/static/js/main.77833c21.chunk.js"
+    "revision": "24a8708acca2327ce844",
+    "url": "/static/js/main.02905ae5.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "090159925ec8c3e70095",
-    "url": "/static/js/2.2344b0fe.chunk.js"
+    "revision": "feb94b2f37ba11770eb4",
+    "url": "/static/js/2.f5f3b0a2.chunk.js"
   },
   {
     "revision": "22ee40702ee60e32869a6e80d97cf37b",
@@ -128,16 +128,8 @@ self.__precacheManifest = [
     "url": "/static/media/aboutme2.87e378c1.png"
   },
   {
-    "revision": "6d25ae389f5f8ecf7f9dcb80076de116",
-    "url": "/static/media/c.6d25ae38.svg"
-  },
-  {
     "revision": "c95c3642f8714cd2c01996eb17690632",
     "url": "/static/media/c++.c95c3642.svg"
-  },
-  {
-    "revision": "9da33b058bf8980a407c2cd6840d0b91",
-    "url": "/static/media/dart.9da33b05.svg"
   },
   {
     "revision": "ab2bf628866bdff2d34d6d31e4ea0667",
@@ -172,10 +164,6 @@ self.__precacheManifest = [
     "url": "/static/media/cupy.8c6893f5.png"
   },
   {
-    "revision": "4d52d08b29f1f9031f23ac847c18f974",
-    "url": "/static/media/flux.4d52d08b.png"
-  },
-  {
     "revision": "bcf7b3c74d00d6ed1601f4bc7bcc015d",
     "url": "/static/media/numpy.bcf7b3c7.png"
   },
@@ -188,8 +176,12 @@ self.__precacheManifest = [
     "url": "/static/media/sklearn.f0f50003.png"
   },
   {
-    "revision": "29266fc28defdad9c6120568eb2a871f",
-    "url": "/static/media/LangChain.29266fc2.png"
+    "revision": "6d25ae389f5f8ecf7f9dcb80076de116",
+    "url": "/static/media/c.6d25ae38.svg"
+  },
+  {
+    "revision": "9da33b058bf8980a407c2cd6840d0b91",
+    "url": "/static/media/dart.9da33b05.svg"
   },
   {
     "revision": "189aacfefda1c78e7825dad5528d5abe",
@@ -200,7 +192,15 @@ self.__precacheManifest = [
     "url": "/static/media/julia.b4cebee8.png"
   },
   {
-    "revision": "a456d81116d5d820841ea9105df850c6",
+    "revision": "4d52d08b29f1f9031f23ac847c18f974",
+    "url": "/static/media/flux.4d52d08b.png"
+  },
+  {
+    "revision": "29266fc28defdad9c6120568eb2a871f",
+    "url": "/static/media/LangChain.29266fc2.png"
+  },
+  {
+    "revision": "26f88bb8d6d28cc04e56ece7a9210652",
     "url": "/index.html"
   }
 ];
